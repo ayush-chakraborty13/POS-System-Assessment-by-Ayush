@@ -1,22 +1,29 @@
-# POS-System-Assessment-by-Ayush
+Parts of Speech Assessment Using NLP
 Overview
-This repository contains a Jupyter notebook that assesses various aspects of a POS (Point of Sale) system.
+This project explores Natural Language Processing (NLP) by conducting a detailed Parts of Speech (POS) assessment using the classic text, "The Tale of Peter Rabbit" by Beatrix Potter. This Jupyter notebook demonstrates how to perform POS tagging and analyses the frequency and roles of different parts of speech within the text.
 
-Contents:
-POS_Assessment_Ayush.ipynb: The main Jupyter notebook containing all the assessments and visualizations.
+Features
+Installation and setup of the SpaCy NLP library.
+Loading and tokenization of text data.
+POS tagging each token and analyzing sentence structures.
+Frequency analysis of various POS tags in the text.
+Detailed dependency parsing to visualize sentence structure.
+Identification and display of named entities.
 Installation
-To run this notebook, you need to have Jupyter installed on your system. You can install Jupyter using Anaconda or directly through pip:
-pip install notebook
+To run this notebook:
 
-How to Use:
-Clone this repository to your local machine.
-Navigate to the repository directory.
-Launch Jupyter Notebook:
+Ensure Python 3.x is installed.
+Install SpaCy and download the necessary NLP models:
+pip install spacy==3.5.0
+python -m spacy download en_core_web_sm
+Clone this repository and navigate to the project directory.
+Usage
+Open the notebook in Jupyter Lab or Jupyter Notebook:
+jupyter notebook
+Run the cells sequentially to observe each step of the POS analysis.
 
-Open the POS_Assessment_Ayush.ipynb file from the Jupyter interface.
-Requirements
-Python 3.x
-Jupyter
-
-Author
-Ayush
+Dependencies
+SpaCy 3.5.0
+en_core_web_sm model for English language processing
+Contributing
+Feel free to fork this project and submit pull requests with enhancements or fixes.
