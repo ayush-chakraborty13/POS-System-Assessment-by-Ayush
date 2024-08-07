@@ -1,4 +1,5 @@
 Parts of Speech Assessment Using NLP
+
 Overview
 This project explores Natural Language Processing (NLP) by conducting a detailed Parts of Speech (POS) assessment using the classic text, "The Tale of Peter Rabbit" by Beatrix Potter. This Jupyter notebook demonstrates how to perform POS tagging and analyses the frequency and roles of different parts of speech within the text.
 
