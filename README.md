@@ -17,7 +17,6 @@ Open the POS_Assessment_Ayush.ipynb file from the Jupyter interface.
 Requirements
 Python 3.x
 Jupyter
-[List any other libraries or frameworks used in the notebook, e.g., Pandas, NumPy, Matplotlib]
 
 Author
 Ayush
